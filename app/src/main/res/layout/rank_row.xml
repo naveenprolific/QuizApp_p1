@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_marginTop="3dp">
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/rankid"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="##"
+            android:layout_marginLeft="5dp"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:gravity="start"/>
+        <TextView
+            android:id="@+id/usernameid"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="username"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:gravity="start"
+            />
+        <TextView
+            android:id="@+id/scoreid"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="score"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:gravity="center"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

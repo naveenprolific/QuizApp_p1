@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".Home">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/timeline"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/timeline1" />
+
+        <ImageView
+            android:id="@+id/imageViewaccount"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="49dp"
+            android:layout_marginRight="49dp"
+            app:srcCompat="@drawable/accountwhite" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:background="#fff"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:background="@drawable/homelogo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QUIZZ"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+       <Button
+           android:id="@+id/buttonPlay"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_margin="7dp"
+           android:background="@drawable/round_button_solid"
+           android:text="Play"
+           android:fontFamily="sans-serif"
+           android:textAllCaps="false"
+           android:textColor="@color/colorAccent"
+           android:textSize="20sp"
+           android:textStyle="bold" />
+       <Button
+           android:id="@+id/buttonLeaderboard"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_margin="7dp"
+           android:background="@drawable/round_button_solid"
+           android:text="Leader Board"
+           android:textSize="20sp"
+           android:fontFamily="sans-serif"
+           android:textStyle="bold"
+           android:textAllCaps="false"
+           android:textColor="@color/colorAccent" />
+       <Button
+           android:id="@+id/buttonsettings"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_margin="7dp"
+           android:background="@drawable/round_button_solid"
+           android:text="Settings"
+           android:textSize="20sp"
+           android:fontFamily="sans-serif"
+           android:textStyle="bold"
+           android:textAllCaps="false"
+           android:textColor="@color/colorAccent" />
+        <Button
+            android:id="@+id/buttonforum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="7dp"
+            android:background="@drawable/round_button_solid"
+            android:text="Forum"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent" />
+   </LinearLayout>
+</LinearLayout>

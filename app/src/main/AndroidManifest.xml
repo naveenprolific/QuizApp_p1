@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quizapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Group"></activity>
+        <activity android:name=".Forum" />
+        <activity android:name=".Comment_page" />
+        <activity android:name=".Setting" />
+        <activity android:name=".Myposts" />
+        <activity android:name=".Readfull" />
+        <activity
+            android:name=".ChangePassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PasswordReset"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lhist"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LBCategories"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewBlog"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Timeline"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Result"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Math"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Hist"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cse"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Categories"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Signupactivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Logo"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".BroadcastReceiver.AlarmReceiver" />
+    </application>
+
+</manifest>
